@@ -1,0 +1,3 @@
+#container-logo-inner:hover #logo-label, #container-logo-inner:hover #logo-icon {
+    text-shadow: 1px 4px 10px rgba(168, 85, 247, 0.2)
+}

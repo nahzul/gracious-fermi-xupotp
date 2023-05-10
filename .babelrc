@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    ["transform-class-properties", { "spec": true }],
+    [
+      "tailwind-components",
+      {
+        "config": "./tailwind.config.js",
+        "format": "auto",
+        "prefix": "tw-",
+        "purge": "./src/**/*.js"
+      }
+    ]
+  ]
+}
