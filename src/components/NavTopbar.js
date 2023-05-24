@@ -9,6 +9,7 @@ const NavTopBar = ({ isPanelActive, setIsPanelActive, isDark, setIsDark }) => {
   function handleInputChange() {
     setShowSuggestion(true);
   }
+  
 
   function handleClick() {
     setIsPanelActive(!isPanelActive);
